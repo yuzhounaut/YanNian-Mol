@@ -1,4 +1,4 @@
-# Lifespan Predictor
+# YanNian-Mol
 
 A modular, efficient machine learning pipeline for predicting compound effects on *model organism* lifespan using multi-modal deep learning with graph neural networks, molecular fingerprints, and various featurization techniques.
 
