@@ -1,0 +1,11 @@
+Compound,Life_extended,CAS Number,SMILES
+Single_Atom_H,0,NA,H
+Single_Atom_C,0,NA,C
+Large_Molecule,1,NA,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C
+Empty_SMILES,0,NA,
+Special_Chars,0,NA,@#$%^&*
+Whitespace_Only,0,NA,   
+Very_Long_SMILES,1,NA,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Stereochemistry,1,NA,C[C@H](O)[C@@H](O)C
+Ring_System,1,NA,C1CCCCC1C2CCCCC2
+Aromatic,1,NA,c1ccccc1

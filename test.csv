@@ -1,0 +1,22 @@
+Compound,Life_extended,CAS Number,SMILES
+Lithocholic acid,1,434-13-9,C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C
+Ginkgolide B,1,15291-77-7,C[C@@H]1C(=O)O[C@@H]2[C@]1([C@@]34C(=O)O[C@H]5[C@]3([C@@H]2O)[C@@]6([C@@H](C5)C(C)(C)C)[C@H](C(=O)O[C@H]6O4)O)O
+"4,4'-Dimethoxychalcone",1,2373-89-9,COC1=CC=C(C=C1)/C=C/C(=O)C2=CC=C(C=C2)OC
+Ergothioneine,1,497-30-3,C[N+](C)(C)[C@@H](CC1=CNC(=S)N1)C(=O)[O-]
+Hesperetin,1,520-33-2,COC1=C(C=C(C=C1)[C@@H]2CC(=O)C3=C(C=C(C=C3O2)O)O)O
+Lycopene,1,502-65-8,CC(=CCC/C(=C/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=C(/CCC=C(C)C)\C)\C)\C)/C)/C)/C)C
+Caffeic acid phenethyl ester,1,104594-70-9,C1=CC=C(C=C1)CCOC(=O)/C=C/C2=CC(=C(C=C2)O)O
+Betaine,1,107-43-7,C[N+](C)(C)CC(=O)[O-]
+Apigenin,1,520-36-5,C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O
+Etoposide,1,33419-42-0,C[C@@H]1OC[C@@H]2[C@@H](O1)[C@@H]([C@H]([C@@H](O2)O[C@H]3[C@H]4COC(=O)[C@@H]4[C@@H](C5=CC6=C(C=C35)OCO6)C7=CC(=C(C(=C7)OC)O)OC)O)O
+All-trans-Retinoic acid,1,302-79-4,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C
+Lithocholic acid-FD,1,434-13-9,[H][C@@]12CC[C@H]([C@H](C)CCC(O)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2C[C@H](O)CC[C@]12C
+Praeruptorin C,1,72463-77-5,C/C=C(/C)\C(=O)O[C@@H]1[C@@H](C2=C(C=CC3=C2OC(=O)C=C3)OC1(C)C)OC(=O)CC(C)C
+20-Deoxyingenol,1,54706-99-9,C[C@@H]1C[C@@H]2[C@@H](C2(C)C)[C@@H]3C=C([C@H]([C@]4([C@@]1(C3=O)C=C([C@@H]4O)C)O)O)C
+Ginkgolid B,1,15291-77-7,C[C@@H]1C(=O)O[C@@H]2[C@]1([C@@]34C(=O)O[C@H]5C3([C@H]2O)C6([C@@H](C5)C(C)(C)C)[C@H](C(=O)O[C@H]6O4)O)O
+Praeruptorin E,1,78478-28-1,C/C=C(/C)\C(=O)O[C@H]1[C@H](C2=C(C=CC3=C2OC(=O)C=C3)OC1(C)C)OC(=O)CC(C)C
+Polyphyllin VI,1,55916-51-3,[H][C@]12C[C@@]3([H])[C@]4([H])CC=C5C[C@H](CC[C@]5(C)[C@@]4([H])CC[C@]3(C)[C@@]1(O)[C@H](C)[C@@]1(CC[C@@H](C)CO1)O2)O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O[C@@H]1O[C@@H](C)[C@H](O)[C@@H](O)[C@H]1O
+Triptolide,1,38748-32-2,CC(C)[C@@]12[C@@H](O1)[C@H]3[C@@]4(O3)[C@]5(CCC6=C([C@@H]5C[C@H]7[C@]4([C@@H]2O)O7)COC6=O)C
+Ginkgolid A,1,15291-75-5,C[C@@H]1C(=O)O[C@@H]2[C@]1([C@@]34C(=O)O[C@H]5C3(C2)C6([C@@H](C5)C(C)(C)C)[C@H](C(=O)O[C@H]6O4)O)O
+NAD+,1,53-84-9,C1=CC(=C[N+](=C1)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)([O-])OP(=O)(O)OC[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N
+Pregnenolone,1,145-13-1,CC(=O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C
