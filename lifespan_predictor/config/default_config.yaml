@@ -3,8 +3,8 @@
 
 # Data paths and settings
 data:
-  train_csv: "train.csv"
-  test_csv: "test.csv"
+  train_csv: "data/train.csv"
+  test_csv: "data/test.csv"
   smiles_column: "SMILES"
   label_column: "Life_extended"
   graph_features_dir: "processed_graph_features"
