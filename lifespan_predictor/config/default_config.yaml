@@ -20,7 +20,7 @@ featurization:
   rdkit_fp_nbits: 2048
   maccs_nbits: 166  # Fixed for MACCS keys
   use_cache: true
-  n_jobs: -1  # -1 uses all available CPU cores
+  n_jobs: 1  # Use 1 for Windows to avoid multiprocessing issues, or 2-4 for moderate parallelism
 
 # Model architecture settings
 model:
