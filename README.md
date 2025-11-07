@@ -297,7 +297,7 @@ trainer = Trainer(
 ## Project Structure
 
 ```
-lifespan_predictor/
+YanNian-Mol/
 ├── config/
 │   ├── config.py              # Configuration management with Pydantic
 │   └── default_config.yaml    # Default configuration
