@@ -1,0 +1,31 @@
+# Core dependencies for lifespan_predictor package
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torch-geometric>=2.3.0
+dgl>=1.0.0
+dgllife>=0.3.0
+
+# Chemistry and Molecular Processing
+rdkit>=2022.09.1
+deepchem>=2.7.0
+
+# Data Processing and Scientific Computing
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+# Configuration and Validation
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.2.0
+
+# Logging and Monitoring
+tensorboard>=2.12.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0

@@ -1,0 +1,80 @@
+# Default Configuration for Lifespan Predictor
+# This file contains all configurable parameters with their default values
+
+# Data paths and settings
+data:
+  train_csv: "train.csv"
+  test_csv: "test.csv"
+  smiles_column: "SMILES"
+  label_column: "Life_extended"
+  graph_features_dir: "processed_graph_features"
+  fingerprints_dir: "processed_fingerprints"
+  output_dir: "results"
+
+# Molecular featurization settings
+featurization:
+  max_atoms: 200
+  atom_feature_dim: 75
+  morgan_radius: 2
+  morgan_nbits: 2048
+  rdkit_fp_nbits: 2048
+  maccs_nbits: 166  # Fixed for MACCS keys
+  use_cache: true
+  n_jobs: -1  # -1 uses all available CPU cores
+
+# Model architecture settings
+model:
+  # Enable/disable model branches
+  enable_gnn: true
+  enable_fp_dnn: true
+  enable_fp_cnn: true
+  
+  # GNN (Graph Neural Network) settings
+  gnn_node_input_dim: 78
+  gnn_edge_input_dim: 11
+  gnn_graph_embed_dim: 128
+  gnn_num_layers: 2
+  gnn_num_timesteps: 2
+  gnn_dropout: 0.5
+  
+  # Fingerprint CNN settings
+  fp_cnn_output_dim: 64
+  
+  # Fingerprint DNN settings
+  fp_dnn_layers: [256, 128]
+  fp_dnn_output_dim: 64
+  fp_dropout: 0.5
+  
+  # Output settings
+  n_output_tasks: 1
+
+# Training settings
+training:
+  task: "classification"  # Options: "classification" or "regression"
+  batch_size: 32
+  max_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  patience: 15  # Early stopping patience
+  gradient_clip: 1.0
+  use_mixed_precision: true
+  val_split: 0.3  # Validation split ratio
+  stratify: true  # Stratify train/val split for classification
+  main_metric: "AUC"  # Main metric for model selection
+  # Classification metrics: AUC, Accuracy, F1, Precision, Recall
+  # Regression metrics: RMSE, MAE, R2, PearsonCorrelation
+
+# Device settings
+device:
+  use_cuda: true
+  device_id: 0
+
+# Logging settings
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: "training.log"
+  tensorboard_dir: "runs"
+  print_every_n_epochs: 5
+
+# Random seed for reproducibility
+random_seed: 42

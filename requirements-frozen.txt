@@ -1,0 +1,44 @@
+# Frozen requirements for lifespan_predictor package
+# Generated on 2025-11-07
+
+# Core dependencies
+torch==2.1.0
+torch-geometric==2.6.1
+dgl==2.2.1
+dgllife==0.3.2
+rdkit==2024.3.6
+deepchem==2.8.0
+numpy==1.24.3
+pandas==2.2.3
+scikit-learn==1.6.1
+
+# Configuration and utilities
+pydantic==2.12.4
+pydantic-core==2.41.5
+PyYAML==6.0.2
+tqdm==4.67.1
+joblib==1.4.2
+
+# Visualization
+matplotlib==3.9.4
+seaborn==0.13.2
+tensorboard==2.13.0
+tensorboard-data-server==0.7.2
+
+# Development dependencies
+pytest==8.4.2
+pytest-cov==7.0.0
+black==25.9.0
+flake8==7.3.0
+mypy==1.18.2
+mypy-extensions==1.1.0
+autoflake==2.3.1
+
+# Jupyter
+jupyter==1.1.1
+jupyterlab==4.3.5
+ipykernel==6.30.0
+
+# Documentation
+sphinx==8.2.2
+sphinx-rtd-theme==3.0.2

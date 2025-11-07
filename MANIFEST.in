@@ -1,0 +1,26 @@
+# Include configuration files
+include lifespan_predictor/config/default_config.yaml
+
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include VERSION
+
+# Include requirements
+include requirements.txt
+include requirements-dev.txt
+include requirements-frozen.txt
+
+# Exclude unnecessary files
+exclude .gitignore
+recursive-exclude tests *
+recursive-exclude notebooks *
+recursive-exclude docs *
+recursive-exclude htmlcov *
+recursive-exclude .pytest_cache *
+recursive-exclude __pycache__ *
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *~
+global-exclude .DS_Store

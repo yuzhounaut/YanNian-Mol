@@ -1,0 +1,16 @@
+Compound,Life_extended,CAS Number,SMILES
+Metformin,1,657-24-9,CN(C)C(=N)N=C(N)N
+Resveratrol,1,501-36-0,C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O)O)O
+Alpha lipoic acid,1,1077-28-7,C1CSSC1CCCCC(=O)O
+Fisetin,1,528-48-3,C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O)O)O
+Propranolol,1,525-66-6,CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O
+Arecoline,1,63-75-2,CN1CCC=C(C1)C(=O)OC
+Coumarin,0,91-64-5,C1=CC=C2C(=C1)C=CC(=O)O2
+Caffeine,0,58-08-2,CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+Aspirin,0,50-78-2,CC(=O)OC1=CC=CC=C1C(=O)O
+Nicotine,0,54-11-5,CN1CCC[C@H]1C2=CN=CC=C2
+Invalid_SMILES_1,1,NA,INVALID123
+Invalid_SMILES_2,0,NA,C1=CC=C(C=C1)XXXXXX
+Benzene,0,71-43-2,C1=CC=CC=C1
+Ethanol,0,64-17-5,CCO
+Methanol,0,67-56-1,CO
