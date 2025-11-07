@@ -24,8 +24,8 @@ A modular, efficient machine learning pipeline for predicting compound effects o
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd lifespan_predictor
+git clone https://github.com/yuzhounaut/YanNian-Mol.git
+cd YanNian-Mol
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -438,10 +438,10 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @software{lifespan_predictor,
-  title = {Lifespan Predictor: Multi-Modal Deep Learning for Molecular Property Prediction},
+  title = {YanNian-Mol: Multi-Modal Deep Learning for Molecular Property Prediction},
   author = {Your Name},
   year = {2024},
-  url = {https://github.com/yourusername/lifespan_predictor}
+  url = {https://github.com//yuzhounaut/YanNian-Mol/}
 }
 ```
 
