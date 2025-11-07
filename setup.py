@@ -12,7 +12,7 @@ if readme_file.exists():
 setup(
     name="lifespan_predictor",
     version="0.1.0",
-    author="Lifespan Predictor Team",
+    author="Disheng Feng",
     description="A modular deep learning pipeline for predicting compound effects on C. elegans lifespan",
     long_description=long_description,
     long_description_content_type="text/markdown",

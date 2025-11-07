@@ -294,7 +294,7 @@ If you use YanNian-Mol in your research, please cite:
 ```bibtex
 @software{yannian_mol_2025,
   title = {YanNian-Mol: A Deep Learning Pipeline for Lifespan Prediction in Model Organisms},
-  author = {Yu Zhou},
+  author = {Disheng Feng},
   year = {2025},
   url = {https://github.com/yuzhounaut/YanNian-Mol},
   version = {0.1.0}
